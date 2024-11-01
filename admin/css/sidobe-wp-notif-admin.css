@@ -1,0 +1,445 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/* Grid CSS: Copyright (c) 2020 Kumar Sidharth */
+.sidobe-wp-row,
+.sidobe-wp-grid {
+  display: grid;
+  row-gap: 24px;
+  column-gap: 24px;
+  grid-template-columns: repeat(12, 12fr);
+}
+
+@media screen and (min-width: 0) {
+  .sidobe-wp-col-xs-12 {
+    grid-column: span 12;
+  }
+  .sidobe-wp-col-xs-11 {
+    grid-column: span 11;
+  }
+  .sidobe-wp-col-xs-10 {
+    grid-column: span 10;
+  }
+  .sidobe-wp-col-xs-9 {
+    grid-column: span 9;
+  }
+  .sidobe-wp-col-xs-8 {
+    grid-column: span 8;
+  }
+  .sidobe-wp-col-xs-7 {
+    grid-column: span 7;
+  }
+  .sidobe-wp-col-xs-6 {
+    grid-column: span 6;
+  }
+  .sidobe-wp-col-xs-5 {
+    grid-column: span 5;
+  }
+  .sidobe-wp-col-xs-4 {
+    grid-column: span 4;
+  }
+  .sidobe-wp-col-xs-3 {
+    grid-column: span 3;
+  }
+  .sidobe-wp-col-xs-2 {
+    grid-column: span 2;
+  }
+  .sidobe-wp-d-xs-none {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .sidobe-wp-col-sm-12 {
+    grid-column: span 12;
+  }
+  .sidobe-wp-col-sm-11 {
+    grid-column: span 11;
+  }
+  .sidobe-wp-col-sm-10 {
+    grid-column: span 10;
+  }
+  .sidobe-wp-col-sm-9 {
+    grid-column: span 9;
+  }
+  .sidobe-wp-col-sm-8 {
+    grid-column: span 8;
+  }
+  .sidobe-wp-col-sm-7 {
+    grid-column: span 7;
+  }
+  .sidobe-wp-col-sm-6 {
+    grid-column: span 6;
+  }
+  .sidobe-wp-col-sm-5 {
+    grid-column: span 5;
+  }
+  .sidobe-wp-col-sm-4 {
+    grid-column: span 4;
+  }
+  .sidobe-wp-col-sm-3 {
+    grid-column: span 3;
+  }
+  .sidobe-wp-col-sm-2 {
+    grid-column: span 2;
+  }
+  .sidobe-wp-d-sm-none {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sidobe-wp-col-md-12 {
+    grid-column: span 12;
+  }
+  .sidobe-wp-col-md-11 {
+    grid-column: span 11;
+  }
+  .sidobe-wp-col-md-10 {
+    grid-column: span 10;
+  }
+  .sidobe-wp-col-md-9 {
+    grid-column: span 9;
+  }
+  .sidobe-wp-col-md-8 {
+    grid-column: span 8;
+  }
+  .sidobe-wp-col-md-7 {
+    grid-column: span 7;
+  }
+  .sidobe-wp-col-md-6 {
+    grid-column: span 6;
+  }
+  .sidobe-wp-col-md-5 {
+    grid-column: span 5;
+  }
+  .sidobe-wp-col-md-4 {
+    grid-column: span 4;
+  }
+  .sidobe-wp-col-md-3 {
+    grid-column: span 3;
+  }
+  .sidobe-wp-col-md-2 {
+    grid-column: span 2;
+  }
+  .sidobe-wp-d-md-none {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .sidobe-wp-col-lg-12 {
+    grid-column: span 12;
+  }
+  .sidobe-wp-col-lg-11 {
+    grid-column: span 11;
+  }
+  .sidobe-wp-col-lg-10 {
+    grid-column: span 10;
+  }
+  .sidobe-wp-col-lg-9 {
+    grid-column: span 9;
+  }
+  .sidobe-wp-col-lg-8 {
+    grid-column: span 8;
+  }
+  .sidobe-wp-col-lg-7 {
+    grid-column: span 7;
+  }
+  .sidobe-wp-col-lg-6 {
+    grid-column: span 6;
+  }
+  .sidobe-wp-col-lg-5 {
+    grid-column: span 5;
+  }
+  .sidobe-wp-col-lg-4 {
+    grid-column: span 4;
+  }
+  .sidobe-wp-col-lg-3 {
+    grid-column: span 3;
+  }
+  .sidobe-wp-col-lg-2 {
+    grid-column: span 2;
+  }
+  .sidobe-wp-d-lg-none {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sidobe-wp-col-xl-12 {
+    grid-column: span 12;
+  }
+  .sidobe-wp-col-xl-11 {
+    grid-column: span 11;
+  }
+  .sidobe-wp-col-xl-10 {
+    grid-column: span 10;
+  }
+  .sidobe-wp-col-xl-9 {
+    grid-column: span 9;
+  }
+  .sidobe-wp-col-xl-8 {
+    grid-column: span 8;
+  }
+  .sidobe-wp-col-xl-7 {
+    grid-column: span 7;
+  }
+  .sidobe-wp-col-xl-6 {
+    grid-column: span 6;
+  }
+  .sidobe-wp-col-xl-5 {
+    grid-column: span 5;
+  }
+  .sidobe-wp-col-xl-4 {
+    grid-column: span 4;
+  }
+  .sidobe-wp-col-xl-3 {
+    grid-column: span 3;
+  }
+  .sidobe-wp-col-xl-2 {
+    grid-column: span 2;
+  }
+  .sidobe-wp-d-xl-none {
+    display: none;
+  }
+}
+
+.sidobe-wp-col-12 {
+  grid-column: span 12;
+}
+
+.sidobe-wp-col-11 {
+  grid-column: span 11;
+}
+
+.sidobe-wp-col-10 {
+  grid-column: span 10;
+}
+
+.sidobe-wp-col-9 {
+  grid-column: span 9;
+}
+
+.sidobe-wp-col-8 {
+  grid-column: span 8;
+}
+
+.sidobe-wp-col-7 {
+  grid-column: span 7;
+}
+
+.sidobe-wp-col-6 {
+  grid-column: span 6;
+}
+
+.sidobe-wp-col-5 {
+  grid-column: span 5;
+}
+
+.sidobe-wp-col-4 {
+  grid-column: span 4;
+}
+
+.sidobe-wp-col-3 {
+  grid-column: span 3;
+}
+
+.sidobe-wp-col-2 {
+  grid-column: span 2;
+}
+
+[class*=".sidobe-wp-col"].align-left {
+  justify-self: start;
+}
+
+.grid.align-left {
+  justify-content: start;
+}
+
+[class*=".sidobe-wp-col"].align-right {
+  justify-self: end;
+}
+
+.grid.align-right {
+  justify-content: end;
+}
+
+[class*=".sidobe-wp-col"].align-h-center {
+  justify-self: center;
+}
+
+.grid.align-h-center {
+  justify-content: center;
+}
+
+[class*=".sidobe-wp-col"].align-h-stretch {
+  justify-self: stretch;
+}
+
+.grid.align-h-stretch {
+  justify-content: stretch;
+}
+
+[class*=".sidobe-wp-col"].align-top {
+  align-self: start;
+}
+
+.grid.align-top {
+  align-content: start;
+}
+
+[class*=".sidobe-wp-col"].align-bottom {
+  align-self: end;
+}
+
+.grid.align-bottom {
+  align-content: end;
+}
+
+[class*=".sidobe-wp-col"].align-v-center {
+  align-self: center;
+}
+
+.grid.align-v-center {
+  align-content: center;
+}
+
+[class*=".sidobe-wp-col"].align-v-stretch {
+  align-self: stretch;
+}
+
+.grid.align-v-stretch {
+  align-content: stretch;
+}
+
+[class*=".sidobe-wp-col"].center {
+  place-self: center;
+}
+
+.sidobe-wp-grid.center,
+.sidobe-wp-row.center {
+  place-items: center;
+}
+
+ /* The switch - the box around the slider */
+.sidobe-wp-switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 22px;
+}
+
+/* Hide default HTML checkbox */
+.sidobe-wp-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.sidobe-wp-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.sidobe-wp-slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .sidobe-wp-slider {
+  background-color: #2196F3;
+}
+
+input:focus + .sidobe-wp-slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .sidobe-wp-slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.sidobe-wp-slider.round {
+  border-radius: 34px;
+}
+
+.sidobe-wp-slider.round:before {
+  border-radius: 50%;
+}
+
+.sidobe-wp-container-tab{
+	padding: 6px 0 0 0;
+}
+
+.sidobe-wp-table td{
+	font-weight: 600;
+}
+
+.sidobe-wp-sidebar-title{
+	border-bottom: 1px solid #0a4b78;
+	box-sizing: border-box;
+	color: #0a4b78;
+	line-height: 19px;
+	margin: 5px 0;
+	padding: 10px 0;
+	text-align: left;
+	width: 100%;
+}
+
+.sidobe-wp-table-template{
+	width: 100%;
+}
+
+.sidobe-wp-input-template{
+	width: 100%;
+	height: 450px;
+}
+
+.sidobe-wp-loading-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+	display: none;
+}
+
+.sidobe-spinner {
+	border: 4px solid rgba(0, 0, 0, 0.1);
+	border-top: 4px solid #000;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	animation: spin 1s linear infinite;
+	margin-right: 10px;
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
